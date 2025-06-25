@@ -29,7 +29,7 @@ A Kubernetes cluster consists of a control plane and worker nodes.
 
 **Example**: In an e-commerce platform, the control plane schedules checkout service pods to nodes with sufficient CPU, while kube-proxy routes traffic to them.
 
-![Diagram of Kubernetes cluster architecture.](k8s-interview-questions/images/k8s-cluster.png)
+![Diagram of Kubernetes cluster architecture.](images/k8s-cluster.png)
 
 ---
 
