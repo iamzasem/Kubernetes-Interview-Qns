@@ -29,7 +29,7 @@ A Kubernetes cluster consists of a control plane and worker nodes.
 
 **Example**: In an e-commerce platform, the control plane schedules checkout service pods to nodes with sufficient CPU, while kube-proxy routes traffic to them.
 
-![Diagram of Kubernetes cluster architecture.](k8s-interview-questions/images/k8s-cluster.png)
+![Diagram of Kubernetes cluster architecture.](k8s-cluster.png)
 
 ---
 
@@ -62,7 +62,7 @@ The **control plane** manages the cluster's state and orchestrates workloads. It
 
 **Example**: In a SaaS platform, control plane nodes manage a cluster, while worker nodes run customer-facing APIs and background job processors.
 
-![Worker vs. control plane node diagram](k8s-interview-questions/images/worker-master-node.png)
+![Worker vs. control plane node diagram](worker-master-node.png)
 ---
 
 ## 6. What is kubelet, and how does it communicate with the control plane?
@@ -187,7 +187,7 @@ A **ReplicaSet** ensures a specified number of pod replicas are running by:
 
 **Example**: A notification service ReplicaSet ensures five pods are always running to handle push notifications.
 
-![ReplicaSet workflow diagram](k8s-interview-questions/images/ReplicaSet.png)
+![ReplicaSet workflow diagram](ReplicaSet.png)
 ---
 
 ## 17. What is a ConfigMap, and how is it used to manage application configurations?
